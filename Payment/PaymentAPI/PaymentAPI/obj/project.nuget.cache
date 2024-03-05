@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CcbRMJE04w79zkY8ZRnI+JLMvSqHZuxFqcUIvtolcYKL+MuIFNhma9FSE7J/GKz1knjqzbwYYT0EY5uNJ7oqCw==",
+  "dgSpecHash": "mt2XEHtj1UBQcroBh0bSP1YPuOKdwqagv6B7gSH+Z47PYP3KAn+nOU2Pxj6fLQBrtGeQEVJfSwZIXiNuKcirug==",
   "success": true,
-  "projectFilePath": "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\BE\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+  "projectFilePath": "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\THANHSANG\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\THANHSANG\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

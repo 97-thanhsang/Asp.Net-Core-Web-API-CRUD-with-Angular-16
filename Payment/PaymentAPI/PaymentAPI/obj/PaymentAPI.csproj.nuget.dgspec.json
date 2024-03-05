@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\BE\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {}
+    "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {}
   },
   "projects": {
-    "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\BE\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {
+    "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\BE\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+        "projectUniqueName": "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
         "projectName": "PaymentAPI",
-        "projectPath": "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\BE\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+        "projectPath": "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\Payment\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
         "packagesPath": "C:\\Users\\THANHSANG\\.nuget\\packages\\",
-        "outputPath": "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\BE\\Payment\\PaymentAPI\\PaymentAPI\\obj\\",
+        "outputPath": "D:\\SROUCE\\Asp.Net-Core-Web-API-CRUD-with-Angular-16\\Payment\\PaymentAPI\\PaymentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\THANHSANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
