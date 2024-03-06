@@ -22,6 +22,7 @@
     "@nrwl/nest": "^18.0.7",
     "@nrwl/node": "^18.0.7",
     "@nx/angular": "18.0.7",
+    "bootstrap": "^5.3.3",
     "express": "~4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
