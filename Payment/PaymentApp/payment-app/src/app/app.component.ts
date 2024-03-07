@@ -13,6 +13,7 @@ import { PaymentDetailsService } from './shared/payment-details.service';
     PaymentDetailsFormComponent,
     HttpClientModule,
     FormsModule,
+    
   ],
   providers:[
     PaymentDetailsService
