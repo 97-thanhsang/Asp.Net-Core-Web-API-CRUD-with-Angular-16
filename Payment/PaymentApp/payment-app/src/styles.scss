@@ -3,3 +3,38 @@
 {
     cursor: pointer;
 }
+
+form label
+{
+    text-transform: uppercase;
+    color: gray;
+}
+form input
+{
+font-weight: 500;
+}
+form input::-webkit-input-placeholder
+{
+    color: #c0bdbd;;
+    font-weight: 300;
+}
+form input::-moz-placeholder
+{
+    color: #c0bdbd;;
+    font-weight: 300;
+}
+form input:-ms-input-placeholder
+{
+    color: #c0bdbd;;
+    font-weight: 300;
+}
+form input::-ms-input-placeholder
+{
+    color: #c0bdbd;;
+    font-weight: 300;
+}
+form input::placeholder
+{
+    color: #c0bdbd;;
+    font-weight: 300;
+}

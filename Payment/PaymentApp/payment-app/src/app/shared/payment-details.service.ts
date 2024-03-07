@@ -9,6 +9,7 @@ import { PaymentDetail } from './payment-details.model';
 export class PaymentDetailsService {
   url: string = environment.apiBaseUrl + '/PaymentDetail';
   list:PaymentDetail[] = [];
+  formData : PaymentDetail = new PaymentDetail();
   constructor(private http: HttpClient) { }
   refeshList() {
     this.http.get(this.url)

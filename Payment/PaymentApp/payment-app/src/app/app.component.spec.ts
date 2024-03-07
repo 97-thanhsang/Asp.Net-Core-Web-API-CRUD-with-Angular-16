@@ -1,9 +1,10 @@
-import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
-import { RouterTestingModule } from '@angular/router/testing';
-import { PaymentDetailsComponent } from './payment-details/payment-details.component';
-import { PaymentDetailsFormComponent } from './payment-details/payment-details-form/payment-details-form.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TestBed } from '@angular/core/testing';
+import { FormsModule } from '@angular/forms';
+import { RouterTestingModule } from '@angular/router/testing';
+import { AppComponent } from './app.component';
+import { PaymentDetailsFormComponent } from './payment-details/payment-details-form/payment-details-form.component';
+import { PaymentDetailsComponent } from './payment-details/payment-details.component';
 import { PaymentDetailsService } from './shared/payment-details.service';
 
 describe('AppComponent', () => {
@@ -15,7 +16,9 @@ describe('AppComponent', () => {
         PaymentDetailsComponent,
         PaymentDetailsFormComponent,
         RouterTestingModule,
-        HttpClientModule
+        HttpClientModule,
+        FormsModule,
+        
       ],
       providers:
       [
