@@ -1,3 +1,4 @@
+/* eslint-disable no-empty */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-empty-function */
 import { CommonModule } from '@angular/common';
@@ -26,17 +27,21 @@ export class PaymentDetailsFormComponent {
 
   onSubmit(form : NgForm)
   {
-    this.service.postPaymentDetail()
-    .subscribe({
-      next : res => {
-        this.service.list = res as PaymentDetail[];
-        this.service.resetForm(form);
-        this.toastr.success('Successfully','Payment Detail Register')
-      },
-      error : err => {
-        console.log(err);
-      }
-    })
+    this.service.formSubmitted = true;
+    if (form.valid) {
+      this.service.postPaymentDetail()
+      .subscribe({
+        next : res => {
+          this.service.list = res as PaymentDetail[];
+          this.service.resetForm(form);
+          this.toastr.success('Successfully','Payment Detail Register')
+        },
+        error : err => {
+          console.log(err);
+        }
+      })
+    }
+
   }
 
 }

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-inferrable-types */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-empty-function */
 import { HttpClient } from '@angular/common/http';
@@ -12,6 +13,7 @@ export class PaymentDetailsService {
   url: string = environment.apiBaseUrl + '/PaymentDetail';
   list:PaymentDetail[] = [];
   formData : PaymentDetail = new PaymentDetail();
+  formSubmitted : boolean = false;
   constructor(private http: HttpClient) { }
   refeshList() {
     this.http.get(this.url)
@@ -33,5 +35,6 @@ export class PaymentDetailsService {
   {
     form.form.reset();
     this.formData = new PaymentDetail();
+    this.formSubmitted = false;
   }
 }
