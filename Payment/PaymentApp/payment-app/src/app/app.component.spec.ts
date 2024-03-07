@@ -17,8 +17,7 @@ describe('AppComponent', () => {
         PaymentDetailsFormComponent,
         RouterTestingModule,
         HttpClientModule,
-        FormsModule,
-        
+        FormsModule,       
       ],
       providers:
       [

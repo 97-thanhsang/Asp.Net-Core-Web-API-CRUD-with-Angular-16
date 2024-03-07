@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { PaymentDetailsFormComponent } from './payment-details/payment-details-form/payment-details-form.component';
 import { PaymentDetailsComponent } from './payment-details/payment-details.component';
 import { PaymentDetailsService } from './shared/payment-details.service';
+
 @Component({
   standalone: true,
   imports: [
@@ -12,11 +13,10 @@ import { PaymentDetailsService } from './shared/payment-details.service';
     PaymentDetailsComponent,
     PaymentDetailsFormComponent,
     HttpClientModule,
-    FormsModule,
-    
+    FormsModule    
   ],
   providers:[
-    PaymentDetailsService
+    PaymentDetailsService,
   ],  
   selector: 'payment-app-root',
   templateUrl: './app.component.html',

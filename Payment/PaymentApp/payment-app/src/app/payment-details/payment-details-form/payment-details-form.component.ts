@@ -1,10 +1,12 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PaymentDetailsService } from 'src/app/shared/payment-details.service';
+import { Component } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule, ToastrService } from 'ngx-toastr';
 import { PaymentDetail } from 'src/app/shared/payment-details.model';
+import { PaymentDetailsService } from 'src/app/shared/payment-details.service';
 
 @Component({
   selector: 'payment-app-payment-details-form',
@@ -15,7 +17,10 @@ import { PaymentDetail } from 'src/app/shared/payment-details.model';
 })
 export class PaymentDetailsFormComponent {
 
-  constructor(public service : PaymentDetailsService){
+  constructor(
+    public service : PaymentDetailsService,
+    private toastr : ToastrService
+    ){
 
   }
 
@@ -26,6 +31,7 @@ export class PaymentDetailsFormComponent {
       next : res => {
         this.service.list = res as PaymentDetail[];
         this.service.resetForm(form);
+        this.toastr.success('Successfully','Payment Detail Register')
       },
       error : err => {
         console.log(err);
